@@ -1,0 +1,247 @@
+@media screen and (min-width: 1000px) {
+    .three-board-section .sticky-height {
+        height: 15vh;
+    }
+    .three-board-section .sticky-3-board {
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+    .three-board-section .sticky-relative {
+        height: 100vh;
+        position: relative;
+    }
+    .three-board-section .single-board {
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        background-color: #fff;
+        width: 100%;
+        transition: 0s;
+    }
+    .three-board-section .single-board:nth-child(2) {
+        background-color: #F9F0FE;
+    }
+    .three-board-section .single-board:nth-child(4) {
+        background-color: #F9F0FE;
+    }
+    .three-board-section .single-board:nth-child(2) .single-advantage-image {
+        box-shadow: none;
+    }
+    .three-board-section .single-board:nth-child(4) .single-advantage-image {
+        box-shadow: none;
+    }
+    .three-board-section .advantages-detail .visitor-icon-list .single-visitor-icon>div {
+        background-color: #fff;
+    }
+    .three-board-section .single-board:nth-child(1) {
+        z-index: 9;
+        box-shadow: 5px 5px 5px #D9D9D9;
+    }
+    .three-board-section .single-board:nth-child(2) {
+        z-index: 8;
+        box-shadow: 5px 5px 5px #D9D9D9;
+    }
+
+    .three-board-section .single-board:nth-child(4) {
+        z-index: 6;
+    }
+    .single-advantage.fade-up-box .fade-up-item, .svg-fade, .single-advantage-image {
+        transition: unset;
+        visibility: visible;
+        opacity: 1;
+        transform: unset;
+    }
+    .single-advantage.fade-up-box.show>.fade-up-item, .single-advantage-image.show .svg-fade, .single-advantage-image.show {
+        visibility: visible;
+        opacity: 1;
+        transform: unset;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    :root {
+        --font60-landing: 36px;
+        --font60: 36px;
+        --font48: 34px;
+        --font42: 32px;
+        --font40: 30px;
+        --font32: 28px;
+        --font30: 26px;
+        --font26: 24px;
+        --font24: 22px;
+        --font20: 18px;
+        --font18: 17px;
+        --font16: 16px;
+        --font14: 14px;
+    }
+    .mouse {
+        display: none;
+    }
+    .top-nav-wrapper {
+        padding: 0;
+        transition: .5s ease-in-out;
+        position: fixed;
+    }
+    .top-nav-wrapper.opened {
+        height: 100vh;
+    }
+    .top-nav {
+        border-radius: 0;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        box-shadow: 15px 15px 30px #D9D9D9, -15px -15px 30px #FFFFFF;
+    }
+    body.black .top-nav {
+        box-shadow: none;
+    }
+    .top-nav .left-icon-area, .top-nav .right-btn-area {
+        flex-basis: 40%;
+        width: 100%;
+        height: 90px;
+    }
+    .top-nav .left-icon-area p {
+        white-space: normal;
+    }
+    .top-nav .center-btn-area {
+        height: fit-content;
+        height: -moz-fit-content;
+        border-top: .5px solid #1a1a1a26;
+        justify-content: flex-start;
+    }
+    .top-nav .center-btn-area ul {
+        padding-left: 25px;
+        flex-direction: column;
+    }
+    .top-nav .center-btn-area ul li {
+        margin: 20px 0 0;
+        display: block;
+        font-size: var(--font24);
+    }
+    .top-nav .right-btn-area .side-menu {
+        display: block;
+    }
+    .top-nav .right-btn-area .nav-get-started {
+        display: none;
+    }
+    .top-nav .center-btn-area {
+        order: 3;
+        flex-basis: 100%;
+        width: 100%;
+    }
+    .top-nav-wrapper.opened .top-nav .mobile-bottom-contact {
+        visibility: visible;
+        opacity: 1;
+    }
+    .features-section .features-e-commerce .features-desc {
+        width: 100%;
+    }
+    .features-section .features-name.special-tag::after {
+        display: block;
+        width: fit-content;
+        width: -moz-fit-content;
+        margin: 15px auto 0;
+    }
+    .features-section {
+        margin-bottom: 100px;
+    }
+    .portfolio-section .left-portfolio-text p {
+        margin-left: 0;
+    }
+    .portfolio-section .all-portfolio {
+        margin-top: 45px;
+    }
+    .pricing-section .pricing-normal, .pricing-section .pricing-plus, .pricing-section .add-on, .pricing-section .button-area-col {
+        padding: 0 15px;
+    }
+    .pricing-section .pricing-normal .pricing-content, .pricing-section .pricing-plus .pricing-content, .pricing-section .add-on .add-on-content {
+        padding: 25px;
+    }
+    .pricing-section .pricing-plus .pricing-content .spec:first-child {
+        margin-bottom: 0px;
+    }
+    .pricing-section .pricing-content .spec div {
+        padding: 10px 0px 10px 20px;
+    }
+    .pricing-section .add-on .add-on-content .single-add-on {
+        padding: 0;
+    }
+    .pricing-section .learn-more .learn-more-content {
+        margin-bottom: 30px;
+    }
+    .footer-section .footer-col {
+        padding: 0 15px;
+    }
+    .footer-section .footer-area {
+        padding: 25px 10px;
+    }
+    .footer-section .footer-area .footer-company {
+        margin-bottom: 30px;
+    }
+
+    .blockstellart-black {
+        /* display: none; */
+        max-width: 12rem;
+    }
+    .bootcamp-li {
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .mobile-text-center {
+        text-align: center;
+    }
+    .about-section {
+        background: #fff;
+    }
+    .about-section img {
+        margin-bottom: 15%;
+    }
+    .three-board-section .single-advantage-image {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+    .three-board-section .advantages-detail {
+        height: auto;
+        margin-bottom: 50px;
+    }
+    .three-board-section .advantages-detail .single-advantage {
+        height: auto;
+        margin-bottom: 50px;
+        align-items: center;
+    }
+    .three-board-section .advantages-detail .marketing-cate {
+        padding: 0;
+        margin-bottom: 50px;
+    }
+    .prev-btn-marketing, .next-btn-marketing {
+        top: unset;
+        bottom: -50px;
+    }
+    .prev-btn-marketing {
+        left: 50%;
+        transform: translate(-125%, 0);
+    }
+    .next-btn-marketing {
+        right: 50%;
+        transform: translate(125%, 0);
+    }
+    .three-board-section .advantages-detail .visitor-icon-list {
+        justify-content: center;
+    }
+    .three-board-section .advantages-detail .report-list {
+        flex-direction: column;
+    }
+    .three-board-section .advantages-detail .report-list span {
+        padding-bottom: 10px;
+    }
+    .three-board-section .advantages-detail .report-list ul {
+        list-style: none;
+        padding: 0;
+    }
+    .three-board-section .advantages-images-wrapper .single-advantage-image svg.ranking-right {
+        left: 92%;
+    }
+   
+}
