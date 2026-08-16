@@ -1,5 +1,5 @@
 # 🚀 Bootcamp AWS — Angular + AWS
-
+![Arquitectura AWS](docs/arquitectura-aws.png)
 Aplicación web desarrollada con **Angular 15** como proyecto práctico para el **Bootcamp de AWS**.
 
 El proyecto muestra diferentes formas de ejecutar y desplegar una aplicación Angular:
